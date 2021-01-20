@@ -1,0 +1,39 @@
+.menu {
+    background-color: #00B9A3;
+    height: 5rem;
+}
+
+.font-menu {
+    font-size: 1.1rem;
+    letter-spacing: .2rem;
+}
+
+.img-logo {
+    width: 42px;
+    padding-top: .2rem;
+}
+
+.btn.focus, 
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.btn {
+    color: rgba(255,255,255,.75) !important;
+    font-size: 1.1rem !important;
+    font-weight: bold !important;
+}
+
+.btn:hover {
+    color: white;
+}
+
+/* Responsive */
+
+@media (max-width: 991px) {
+    .img-logo {
+        width: 38px;
+        padding-top: 0;        
+    }
+
+}

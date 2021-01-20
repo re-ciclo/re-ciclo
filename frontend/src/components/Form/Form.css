@@ -1,0 +1,23 @@
+a {
+    padding-left: 0rem;
+}
+
+.bg-form {
+    background-color: #ECFEF8;
+    padding: 3rem;
+}
+
+.btn-register {
+    background-color: #00B9A3;
+    border: #00B9A3;
+    font-weight: bold;   
+}
+
+.btn-register:hover {
+    background-color: #5DDEC0;
+    transition: .6s;
+}
+
+.link {
+    color: rgb(84, 84, 247);
+}

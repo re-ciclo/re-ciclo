@@ -1,0 +1,87 @@
+.banner1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("./img/banner1.png");
+    height: 80vh;
+    background-size: cover;
+}
+
+.banner2 {
+    background-image: url("./img/banner2.png");
+    height: 80vh;
+    background-size: cover;
+}
+
+.card {
+    background-color: transparent !important;
+    border: transparent !important;
+    height: 18rem;
+}
+
+.text-banner-1 p {
+    margin-top: 5.5rem;
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.title-banner-2 {
+    margin-top: 4rem;
+    font-size: clamp(1.2rem, 2.3vw, 2rem);
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+.text-banner-2 {
+    margin-top: 4rem;
+    font-size: clamp(1rem, 1.7vw, 1.6rem);
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: justify;
+}
+
+
+/* Responsive */
+
+@media (max-width: 990px) {
+    .banner1,
+    .banner2 {
+        height: 50vh;
+    }
+
+    .text-banner-1 p {
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner1,
+    .banner2 {
+        height: 40vh;
+    }
+
+    .text-banner-1 p {
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 415px) {
+    .banner1,
+    .banner2 {
+        height: 30vh;
+    }
+
+    .text-banner-1 p {
+        margin-top: 2.6rem;
+    }
+
+    .title-banner-2 {
+        margin: .5rem auto;
+    }
+
+    .text-banner-2 {
+        margin: .5rem;
+    }
+}
