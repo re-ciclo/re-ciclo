@@ -31,12 +31,18 @@ class Endereco
 
         $connection = Connection::getDb();
 
-        $stmt = $connection->query("SELECT count(id_usuario)+1 FROM endereco");
-        $dados = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        // $stmt = $connection->query("SELECT count(uf)+1 FROM endereco");
+        // $dados = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
-        $this->id_usuario = $dados[0]["count(id_usuario)+1"];
+        // $this->id_usuario = $dados[0]["count(uf)+1"];
 
-        $id =  $this->id_usuario;
+
+        $stmt = $connection->query("SELECT id_usuario FROM usuario order by id_usuario desc limit 1");
+        $dados = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $this->id_usuario = $dados[0]["id_usuario"];
+      
+
+        $id =  $this->id_usuario; 
 
         
          $stmt2 = $connection->query("INSERT INTO endereco
