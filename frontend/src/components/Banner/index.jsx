@@ -27,7 +27,7 @@ export const BannerConsume = () =>{
                             </Card.Text>
 
                             <Card.Link href="#" className="d-flex justify-content-center">
-                                <Button className="btn-light btn-sm">
+                                <Button className="btn-light btn-sm btn-saibamais">
                                     <Nav.Link as={Link} href="/information" to="/information">
                                         Saiba mais
                                     </Nav.Link>

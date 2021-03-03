@@ -18,7 +18,7 @@ export const CardsReciclo = () => {
 
     return (
         <>
-            <MDBRow className="my-5 row">
+            <MDBRow className="my-5 row cards">
                 <MDBCol className="col-12 col-sm-4 px-3 d-flex justify-content-center">
                     <MDBCard
                     className='card-image'

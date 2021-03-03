@@ -15,8 +15,6 @@ import {Carousel} from 'react-bootstrap';
 
 // Images - Supporters
 import Recode from './img/recode.jpg';
-import Itau from './img/itau.jpg';
-import Akatu from './img/akatu.png';
 import Maeda from './img/maeda.svg';
 
 // Styles
@@ -100,12 +98,12 @@ export const CarrousselSupporters = () => {
             </div>
 
             <div>
-              <img src={Itau} 
-                className="img-small" alt="logomarca Itau"/>            
+              <img src={Maeda} 
+                className="img-big" alt="logomarca Itau"/>            
             </div>
 
             <div>
-              <img src={Akatu} 
+              <img src={Recode} 
                 className="img-big" alt="logomarca Akatu"/>            
             </div>
 

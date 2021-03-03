@@ -1,6 +1,6 @@
 .txt-areciclo {
     font-family: 'Nunito', sans-serif;
-    font-size: clamp(.7rem, .9vh, 2rem);
+    font-size: clamp(.7rem, 1vh, 4rem);
     text-align: justify;
 }
 
