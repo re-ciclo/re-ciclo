@@ -1,6 +1,5 @@
 # re-ciclo
 
-
 ## Introdução
 [![Watch the video](https://images2.imgbox.com/31/f6/hiWOa16z_o.png)](https://www.youtube.com/watch?v=o6mhReCGxXU&t=0s)
 
@@ -28,8 +27,6 @@ A Re-ciclo compreende a importância do equilíbio ambiental que nosso planeta n
 <p>
 O projeto tem como finalidade reverter os valores que são gerados através da venda do lixo reciclável para ser utilizados como benefício de todos moradores. Cada material será avaliado, seus valores serão acumulados e administrados pelo parceiro e revertido em forma de manutenção para o condomínio (pintura, encanamento, reforma da área de lazer, jardinagem).
 </p>
-
-
 
 <hr/>
 
@@ -84,3 +81,6 @@ O projeto tem como finalidade reverter os valores que são gerados através da v
   <li>mdbreact</li>
   <li>react-chartjs-2</li>
 </ul>
+
+## Dispositivos
+<a href="https://imgbox.com/F3yZEKUQ" target="_blank"><img src="https://images2.imgbox.com/49/ee/F3yZEKUQ_o.png" alt="image host"/></a>
