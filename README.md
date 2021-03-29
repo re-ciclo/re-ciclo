@@ -2,7 +2,7 @@
 
 
 ## Introdução
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=o6mhReCGxXU&t=0s)
+[![Watch the video](https://images2.imgbox.com/31/f6/hiWOa16z_o.png)](https://www.youtube.com/watch?v=o6mhReCGxXU&t=0s)
 
 <a href="https://imgbox.com/iiQwWPc3" target="_blank"><img src="https://images2.imgbox.com/3f/b4/iiQwWPc3_o.png" alt="image host"/></a>
 ### Nossa história
